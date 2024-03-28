@@ -4,12 +4,6 @@
     color: hsl(30, 10%, 34%);
 }
 
-.title, #contentTitle, .heading2 {
-    font-family: "Young Serif", serif;
-    color: hsl(14, 45%, 36%);
-    margin-bottom: 10px;
-}
-
 .mainContainer{
     display: flex;
     flex-direction: column;
@@ -24,7 +18,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    width: 700px;
+    width: 750px;
     height: auto;
     border-radius: 20px;
     background-color: hsl(0, 0%, 100%);
@@ -32,16 +26,21 @@
 
 .image{
     border-radius: 20px;
-    width: 630px;
+    width: 700px;
     height: 300px;
     margin-top: 30px;
 }
 
-.title {
-    font-size: 20px;
-    width: 90%;
+h1 {
+    font-family: "Young Serif", serif;
+    color: hsl(14, 45%, 36%);
+    margin-bottom: 10px;
+    font-weight: 400;
+    font-size: 40px;
+    width: 100%;
     color: hsl(24, 5%, 18%);
     margin-bottom: 0; 
+    padding-left: 70px;
 }
 
 .prep{
@@ -49,7 +48,9 @@
     width: 85%;
 }
 
-.heading2 {
+h3 {
+    font-family: "Young Serif", serif;
+    margin-bottom: 10px;
     font-size: 18px;
     padding-left: 15px;
     color: hsl(332, 51%, 32%);
@@ -58,6 +59,7 @@
 .subtitle {
     width: 90%;
     font-size: 16px;
+    padding-bottom: 20px;
 }
 
 .content{
@@ -70,8 +72,13 @@
     font-size: 16px;
 }
 
-#contentTitle{
+h2 {
+    font-family: "Young Serif", serif;
+    color: hsl(14, 45%, 36%);
+    margin-bottom: 10px;
     font-size: 25px;
+    font-weight: 400;
+    padding-top: 20px;
 }
  
 .list1 {
